@@ -1,24 +1,31 @@
-# README
+## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is built from the guides developed by RailsGirls. If you are interested in learning about Ruby on Rails, [this is a great place](http://guides.railsgirls.com/app) to get started.
 
-Things you may want to cover:
+### Requirements
 
-* Ruby version
+[Ruby version](.ruby-version)<br />
+[Rails version](Gemfile#L10)<br />
+[sqlite3](#)
 
-* System dependencies
+### Configuration
 
-* Configuration
+To install the system locally:
 
-* Database creation
+	$ git clone git@github.com:leesheppard/railsgirls_app.git
+	$ cd railsgirls_app
+	
+### Run Application
 
-* Database initialization
+Run Rails server (WEBrick):
 
+    $ rails s
+
+### Accessing the Site
+
+Development (WEBrick): [http://localhost:3000](http://localhost:3000)
+
+##### TODO
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
 * Deployment instructions
-
-* ...
