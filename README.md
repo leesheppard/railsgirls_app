@@ -1,12 +1,13 @@
 ## README
 
-This app is built from the guides developed by RailsGirls. If you are interested in learning about Ruby on Rails, [this is a great place](http://guides.railsgirls.com/app) to get started.
+This app is built from the guides developed by [RailsGirls](http://railsgirls.com/). If you are interested in learning about Ruby on Rails, [this is a great place](http://guides.railsgirls.com/app) to get started.
 
 ### Requirements
 
 [Ruby version](.ruby-version)<br />
 [Rails version](Gemfile#L10)<br />
-[sqlite3](#)
+[Postgres](#) for production<br />
+[sqlite3](#) for development
 
 ### Configuration
 
