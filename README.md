@@ -1,8 +1,10 @@
-![Build Status](https://codeship.com/projects/6c1d3eb0-25d9-0135-923a-76ec0d7a655b/status?branch=master)
+<img src="http://res.cloudinary.com/leesheppard/image/upload/v1496038800/ruby_engineer_pqt8de.png" />
 
 ## README
 
 This app is built from the guides developed by [RailsGirls](http://railsgirls.com/). If you are interested in learning about Ruby on Rails, [this is a great place](http://guides.railsgirls.com/app) to get started.
+
+![Build Status](https://codeship.com/projects/6c1d3eb0-25d9-0135-923a-76ec0d7a655b/status?branch=master)
 
 ### Requirements
 
@@ -28,7 +30,7 @@ Run Rails server (WEBrick):
 
 Development (WEBrick): [http://localhost:3000](http://localhost:3000)
 
-## Modifications
+## MODIFICATIONS
 
 ### Deployment
 **Automated deployment**
@@ -48,3 +50,7 @@ Automated deployment process in place using Codeship and Heroku. Once a commit t
 For information or any questions.
 
 [![Hello](https://img.shields.io/badge/Hello-%40leesheppard-blue.svg)](https://twitter.com/leesheppard)
+
+### Copyright notice
+
+Illustrations and images used within this project are subject to copyright by Lee Sheppard.
