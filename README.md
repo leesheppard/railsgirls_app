@@ -37,9 +37,14 @@ Development (WEBrick): [http://localhost:3000](http://localhost:3000)
 Automated deployment process in place using Codeship and Heroku. Once a commit to the master branch is pushed, it is processed by Codeship and is then deployed from the Codeship worker to Heroku.
 
 ### Backend
-Used [Figaro](https://github.com/laserlemon/figaro) to handle secret keys to remove any identifiable information from environments. Reasons why are on this [StackOverflow](http://stackoverflow.com/q/14785257/567863) thread.
+* Used [Figaro](https://github.com/laserlemon/figaro) to handle secret keys to remove any identifiable information from environments. Reasons why are on this [StackOverflow](http://stackoverflow.com/q/14785257/567863) thread.
 
 ##### TODO
 * Add testing/debugging suite
 * How to run the test suite
 * Deployment instructions
+
+### Contact
+For information or any questions.
+
+[![Hello](https://img.shields.io/badge/Hello-%40leesheppard-blue.svg)](https://twitter.com/leesheppard)
