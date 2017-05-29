@@ -28,6 +28,8 @@ gem 'turbolinks', '>= 5'
 gem 'jbuilder', '~> 2.5'
 # Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro'
+# Code coverage
+gem 'coveralls', require: false
 
 group :production do
   # Use postgres as the database for production
