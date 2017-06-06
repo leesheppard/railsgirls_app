@@ -71,7 +71,6 @@ Automated deployment process in place using Codeship and Heroku. Once a commit t
 Thanks for checking out my work.
 
 ![Lee Sheppard signature](http://res.cloudinary.com/leesheppard/image/upload/v1496495524/Lee-Sheppard-Black_iv1j84.png)
-For information or any questions:
 
 [![Hello](https://img.shields.io/badge/Hello-%40leesheppard-blue.svg)](https://twitter.com/leesheppard)
 
