@@ -1,6 +1,6 @@
 ![RailsGirls Engineer](http://res.cloudinary.com/leesheppard/image/upload/v1496038800/ruby_engineer_pqt8de.png)
 
-# README
+## README
 
 This app is built from the guides developed by [RailsGirls](http://railsgirls.com/). If you are interested in learning about Ruby on Rails, [this is a great place](http://guides.railsgirls.com/app) to get started. There are also modifications to customise the appearance, performance and overall build of code. A list of which can be found [here](#modifications).  
 
@@ -46,6 +46,7 @@ Development (WEBrick): [http://localhost:3000](http://localhost:3000)
 ## MODIFICATIONS
 
 * [CodeClimate](https://codeclimate.com) added for automated code review
+* [Rollbar](https://rollbar.com) added - monitors for bugs
 
 ### Frontend
 * Configured DNS with Heroku to simplify app URL - [railsgirls.sheppard.io](http://railsgirls.sheppard.io)
@@ -59,18 +60,25 @@ Automated deployment process in place using Codeship and Heroku. Once a commit t
 ### Backend
 * Used [Figaro](https://github.com/laserlemon/figaro) to handle secret keys to remove any identifiable information from environments. Reasons why are on this [StackOverflow](http://stackoverflow.com/q/14785257/567863) thread.
 
+------
+
 ##### TODO
 * Add testing/debugging suite
 * How to run the test suite
 * Deployment instructions
 
-### Contact
-For information or any questions.
+## Contact
+Thanks for checking out my work.
+
+![Lee Sheppard signature](http://res.cloudinary.com/leesheppard/image/upload/v1496495524/Lee-Sheppard-Black_iv1j84.png)
+For information or any questions:
 
 [![Hello](https://img.shields.io/badge/Hello-%40leesheppard-blue.svg)](https://twitter.com/leesheppard)
 
+------
+
 ![Lee's AntiPirate](http://res.cloudinary.com/leesheppard/image/upload/c_scale,h_147/v1496056672/leesheppard_pirate_jk4fta.png)
 
-### Copyright notice
+## Copyright notice
 
-Illustrations and images used within this project are subject to copyright &copy; 2017 by Lee Sheppard. All rights are reserved.
+Illustrations and images used within this project are subject to copyright &copy; 2017 by [Lee Sheppard](http://www.leesheppard.com). All rights are reserved.
