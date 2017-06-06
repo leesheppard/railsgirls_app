@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'figaro'
 # Code coverage
 gem 'coveralls', require: false
+# Bug notifications and monitoring
+gem 'rollbar'
 
 group :production do
   # Use postgres as the database for production
