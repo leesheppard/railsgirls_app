@@ -1,15 +1,8 @@
 source 'https://rubygems.org'
 
-# workaround for bug in Bundler which causes sources from github to load via HTTP and not HTTPS
-git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-  "https://github.com/#{repo_name}.git"
-end
-# ^ https://github.com/bundler/bundler/issues/5476
-
 ruby '2.4.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 5.1.1'
 # Picture upload using Carrierwave
 gem 'carrierwave'
 # Use Puma as the app server
@@ -30,6 +23,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'figaro'
 # Code coverage
 gem 'coveralls', require: false
+# Bug notifications and monitoring
+gem 'rollbar'
 
 group :production do
   # Use postgres as the database for production
@@ -39,6 +34,8 @@ end
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  # Rspec-rails 
+  gem 'rspec-rails', '~> 3.6'
 end
 
 group :development do
