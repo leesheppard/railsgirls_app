@@ -1,0 +1,17 @@
+// https://other.media/itcss-the-inverted-triangle-css-the-right-way-up/
+//
+// * Settings: Contains the variables used across your project, e.g. colour defaults, grid settings etc
+// * Tools: All your mixins/functions used across the project
+// * Generics: High level rules, think normalize.css – nothing project design specific
+// * Base/Elements: Styles that go directly on HTML elements, no classes or id are specified yet
+// * Objects: So called “cosmetic free design patterns” such as a grid system
+// * Components: UI components from the design team, e.g. footer
+// * Trumps: Overrides and helpers
+
+@import 'normalize';
+@import 'settings';
+@import 'tools';
+@import 'generics';
+@import 'base';
+@import 'components';
+@import 'trumps';
