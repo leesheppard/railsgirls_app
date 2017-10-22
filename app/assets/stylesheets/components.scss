@@ -1,0 +1,107 @@
+// Components: UI components from the design team, e.g. footer
+
+main a {
+    color: $white;
+    padding-left: 1.5em;
+    position: relative;
+    left: 1em;
+    text-decoration: none;
+    transition: color 0.4s;
+
+    &::before {
+      content: "\f005";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+  /*--adjust as necessary--*/
+      color: $white;
+      font-size: 1em;
+      padding-right: 0.5em;
+      position: absolute;
+      left: 0em;
+    }
+
+    &:hover {
+      color: $pu-A100;
+    }
+  }
+
+.sidenav {
+    background-color: #111;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+		position: fixed;
+    transition: 0.5s;
+	  top: 0;
+		width: 0;
+    z-index: 1;
+
+	& a {
+    color: #818181;
+    display: block;
+    font-size: 1em;
+    padding: .5em .5em .5em 2em;
+    text-decoration: none;
+    text-align: left;
+    transition: 0.3s
+	}
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.sidenav-burger {
+  cursor:pointer;
+  float:left;
+  font-size:30px;
+  margin: 0.5em 0 0 0.5em;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+		padding-top: 1em;
+
+		& a {
+		font-size: 1em;
+		}
+	}
+}
+
+
+footer {
+  background-color: $black;
+  display: flex;
+  margin-bottom: 0;
+  min-height: 4em;
+  padding: 1.5em;
+
+  a {
+    color: $white;
+
+    font-size: 1em;
+    text-decoration: none;
+    transition: color 0.4s;
+
+    &:hover {
+      color: $pu-A100;
+    }
+  }
+}
+
+.footer-main--column {
+    display: flex;
+    justify-content: space-between;
+
+}
