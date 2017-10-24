@@ -1,5 +1,35 @@
 // Components: UI components from the design team, e.g. footer
 
+.btn-show {
+    background-color: #1b93d3;
+    border-radius: .4em;
+    font-size: .8em;
+    padding: .5em;
+
+    & a {
+      color: white;
+      transition: color .4s ease;
+
+      &:hover {
+        color: black;
+      }
+    }
+}
+
+.btn-edit {
+    background-color: #ffe021;
+    border-radius: .4em;
+    font-size: .8em;
+    padding: .5em;
+}
+
+.btn-trash {
+    background-color: #e41d61;
+    border-radius: .4em;
+    font-size: .8em;
+    padding: .5em;
+}
+
 main {
   margin-bottom: 1.5em;
 }
@@ -20,7 +50,7 @@ main a {
   //     color: $white;
   //     font-size: 1em;
   //     padding-right: 0.5em;
-  //    padding-left: 1.5em;
+  //     padding-left: 1.5em;
   //     position: absolute;
   //     left: 0em;
   // }
@@ -29,6 +59,10 @@ main a {
       color: $pu-A100;
     }
   }
+
+.ideas-table {
+  margin: auto;
+}
 
 .sidenav {
     background-color: #111;
@@ -87,9 +121,7 @@ th {
 }
 
 td {
-  padding-bottom: 7px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 1em;
 }
 
 div {
@@ -126,7 +158,7 @@ footer {
 
   a {
     color: $white;
-    font-size: 1em;
+    font-size: .8em;
     text-decoration: none;
     transition: color 0.4s;
 
@@ -151,12 +183,12 @@ footer {
     margin: 0;
     padding: 0;
     flex-grow: 1;
-}
 
-.footer-main--column ul {
-    list-style: none;
-    padding: 0;
-    text-align: left;
+    & ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+    }
 }
 
 .nav-horizontal {
