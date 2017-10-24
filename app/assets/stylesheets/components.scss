@@ -1,26 +1,29 @@
 // Components: UI components from the design team, e.g. footer
 
+main {
+  margin-bottom: 1.5em;
+}
+
 main a {
     color: $white;
-    padding-left: 1.5em;
     position: relative;
-    left: 1em;
     text-decoration: none;
     transition: color 0.4s;
 
-    &::before {
-      content: "\f005";
-      font-family: FontAwesome;
-      font-style: normal;
-      font-weight: normal;
-      text-decoration: inherit;
-  /*--adjust as necessary--*/
-      color: $white;
-      font-size: 1em;
-      padding-right: 0.5em;
-      position: absolute;
-      left: 0em;
-    }
+  //   &::before {
+  //     content: "\f005";
+  //     font-family: FontAwesome;
+  //     font-style: normal;
+  //     font-weight: normal;
+  //     text-decoration: inherit;
+  // /*--adjust as necessary--*/
+  //     color: $white;
+  //     font-size: 1em;
+  //     padding-right: 0.5em;
+  //    padding-left: 1.5em;
+  //     position: absolute;
+  //     left: 0em;
+  // }
 
     &:hover {
       color: $pu-A100;
@@ -46,7 +49,7 @@ main a {
     padding: .5em .5em .5em 2em;
     text-decoration: none;
     text-align: left;
-    transition: 0.3s
+    transition: 0.3s;
 	}
 }
 
@@ -79,17 +82,50 @@ main a {
 	}
 }
 
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
 
 footer {
   background-color: $black;
   display: flex;
   margin-bottom: 0;
   min-height: 4em;
-  padding: 1.5em;
+  padding: 2em;
 
   a {
     color: $white;
-
     font-size: 1em;
     text-decoration: none;
     transition: color 0.4s;
@@ -100,8 +136,35 @@ footer {
   }
 }
 
-.footer-main--column {
+.footer-main {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+}
 
+.footer-main--titles {
+  font-size: 1em;
+  margin-top: 0;
+  text-align: left;
+}
+
+.footer-main--column {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.footer-main--column ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.nav-horizontal {
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+  & li {
+    margin-right: .5em;
+  }
 }
