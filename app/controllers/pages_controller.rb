@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
-  def info
+  def ideas
+  end
+
+  def links
   end
 end

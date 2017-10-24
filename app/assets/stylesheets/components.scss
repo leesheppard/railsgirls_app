@@ -1,0 +1,202 @@
+// Components: UI components from the design team, e.g. footer
+
+.btn-show {
+    background-color: #1b93d3;
+    border-radius: .4em;
+    font-size: .8em;
+    padding: .5em;
+
+    & a {
+      color: white;
+      transition: color .4s ease;
+
+      &:hover {
+        color: black;
+      }
+    }
+}
+
+.btn-edit {
+    background-color: #ffe021;
+    border-radius: .4em;
+    font-size: .8em;
+    padding: .5em;
+}
+
+.btn-trash {
+    background-color: #e41d61;
+    border-radius: .4em;
+    font-size: .8em;
+    padding: .5em;
+}
+
+main {
+  margin-bottom: 1.5em;
+}
+
+main a {
+    color: $white;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.4s;
+
+  //   &::before {
+  //     content: "\f005";
+  //     font-family: FontAwesome;
+  //     font-style: normal;
+  //     font-weight: normal;
+  //     text-decoration: inherit;
+  // /*--adjust as necessary--*/
+  //     color: $white;
+  //     font-size: 1em;
+  //     padding-right: 0.5em;
+  //     padding-left: 1.5em;
+  //     position: absolute;
+  //     left: 0em;
+  // }
+
+    &:hover {
+      color: $pu-A100;
+    }
+  }
+
+.ideas-table {
+  margin: auto;
+}
+
+.sidenav {
+    background-color: #111;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+		position: fixed;
+    transition: 0.5s;
+	  top: 0;
+		width: 0;
+    z-index: 1;
+
+	& a {
+    color: #818181;
+    display: block;
+    font-size: 1em;
+    padding: .5em .5em .5em 2em;
+    text-decoration: none;
+    text-align: left;
+    transition: 0.3s;
+	}
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.sidenav-burger {
+  cursor:pointer;
+  float:left;
+  font-size:30px;
+  margin: 0.5em 0 0 0.5em;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+		padding-top: 1em;
+
+		& a {
+		font-size: 1em;
+		}
+	}
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding: 1em;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+footer {
+  background-color: $black;
+  display: flex;
+  margin-bottom: 0;
+  min-height: 4em;
+  padding: 2em;
+
+  a {
+    color: $white;
+    font-size: .8em;
+    text-decoration: none;
+    transition: color 0.4s;
+
+    &:hover {
+      color: $pu-A100;
+    }
+  }
+}
+
+.footer-main {
+    display: flex;
+    width: 100%;
+}
+
+.footer-main--titles {
+  font-size: 1em;
+  margin-top: 0;
+  text-align: left;
+}
+
+.footer-main--column {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+
+    & ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+    }
+}
+
+.nav-horizontal {
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+  & li {
+    margin-right: .5em;
+  }
+}

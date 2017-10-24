@@ -24,6 +24,8 @@ gem 'figaro'
 gem 'coveralls', require: false
 # Bug notifications and monitoring
 gem 'rollbar'
+# Additional icon support
+gem 'font-awesome-sass', '~> 4.7.0'
 
 group :production do
   # Use postgres as the database for production
