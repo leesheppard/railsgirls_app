@@ -29,7 +29,7 @@ gem 'font-awesome-sass', '~> 4.7.0'
 
 group :production do
   # Use postgres as the database for production
-  gem 'pg'
+  gem 'pg', '~> 0.18'
 end
 
 group :development, :test do
