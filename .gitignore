@@ -24,3 +24,11 @@
 /config/application.yml
 
 .coveralls.yml
+
+config.codekit3
+
+gemnasium.yml
+
+.gemnasium.yml
+
+.idea/
