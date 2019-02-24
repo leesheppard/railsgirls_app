@@ -9,9 +9,8 @@ This app is built from the guides developed by [RailsGirls](http://railsgirls.co
 *Fancy status badges that tell you stuff about this app:*
 
 ![Build Status](https://codeship.com/projects/6c1d3eb0-25d9-0135-923a-76ec0d7a655b/status?branch=master)
-[![Code Climate](https://codeclimate.com/github/leesheppard/railsgirls_app.svg)](https://codeclimate.com/github/leesheppard/railsgirls_app) 
-[![Coverage Status](https://coveralls.io/repos/github/leesheppard/railsgirls_app/badge.svg?branch=master)](https://coveralls.io/github/leesheppard/railsgirls_app?branch=master) 
-[![Dependency Status](https://gemnasium.com/badges/github.com/leesheppard/railsgirls_app.svg)](https://gemnasium.com/github.com/leesheppard/railsgirls_app)
+[![Code Climate](https://codeclimate.com/github/leesheppard/railsgirls_app.svg)](https://codeclimate.com/github/leesheppard/railsgirls_app)
+[![Coverage Status](https://coveralls.io/repos/github/leesheppard/railsgirls_app/badge.svg?branch=master)](https://coveralls.io/github/leesheppard/railsgirls_app?branch=master)
 [![GitHub version](https://badge.fury.io/gh/leesheppard%2Frailsgirls_app.svg)](https://badge.fury.io/gh/leesheppard%2Frailsgirls_app)
 
 ## Requirements
@@ -25,7 +24,7 @@ This app is built from the guides developed by [RailsGirls](http://railsgirls.co
 If you haven't installed Bundler previously, you may need to do so before you try running the app. It's a system gem, don't add it in to your gemfile.
 
 	$ gem install bundler
-	
+
 ## Configuration
 
 To install the system locally:
@@ -36,7 +35,7 @@ To install the system locally:
 
 ### Run Application
 
-Run Rails server (WEBrick):
+Run Rails server (Puma):
 
     $ rails server
 
