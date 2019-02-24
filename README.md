@@ -17,8 +17,7 @@ This app is built from the guides developed by [RailsGirls](http://railsgirls.co
 
 * [Ruby version](.ruby-version)  
 * [Rails version](Gemfile#L10)  
-* [Postgres](#) for production  
-* [sqlite3](#) for development  
+* [Postgres](Gemfile#L28)
 * [Bundler](https://bundler.io)
 
 If you haven't installed Bundler previously, you may need to do so before you try running the app. It's a system gem, don't add it in to your gemfile.
