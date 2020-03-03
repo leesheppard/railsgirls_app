@@ -5,7 +5,7 @@ gem 'rails', '~> 5.1'
 # Picture upload using Carrierwave
 gem 'carrierwave'
 # Use Puma as the app server
-gem 'puma'
+gem 'puma', '>= 3.12.4'
 # Use SCSS for stylesheets
 gem 'sassc-rails'
 # Use Uglifier as compressor for JavaScript assets
