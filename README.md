@@ -2,7 +2,7 @@
 
 ## README
 
-This app is built from the guides developed by [RailsGirls](http://railsgirls.com/). If you are interested in learning about Ruby on Rails, [this is a great place](http://guides.railsgirls.com/app) to get started. There are also modifications to customise the appearance, performance and overall build of code. A list of which can be found [here](#modifications).  
+This example app is built from the guides developed by [RailsGirls](http://railsgirls.com/). If you are interested in learning about Ruby on Rails, [this is a great place](http://guides.railsgirls.com/app) to get started. There are also modifications to customise the appearance, performance and overall build of code. A list of which can be found [here](#modifications).  
 
 ### Health Status
 
@@ -10,8 +10,6 @@ This app is built from the guides developed by [RailsGirls](http://railsgirls.co
 
 ![Build Status](https://codeship.com/projects/6c1d3eb0-25d9-0135-923a-76ec0d7a655b/status?branch=master)
 [![Code Climate](https://codeclimate.com/github/leesheppard/railsgirls_app.svg)](https://codeclimate.com/github/leesheppard/railsgirls_app)
-[![Coverage Status](https://coveralls.io/repos/github/leesheppard/railsgirls_app/badge.svg?branch=master)](https://coveralls.io/github/leesheppard/railsgirls_app?branch=master)
-[![GitHub version](https://badge.fury.io/gh/leesheppard%2Frailsgirls_app.svg)](https://badge.fury.io/gh/leesheppard%2Frailsgirls_app)
 
 ## Requirements
 
@@ -19,6 +17,8 @@ This app is built from the guides developed by [RailsGirls](http://railsgirls.co
 * [Rails version](Gemfile#L10)  
 * [Postgres](Gemfile#L28)
 * [Bundler](https://bundler.io)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
 
 If you haven't installed Bundler previously, you may need to do so before you try running the app. It's a system gem, don't add it in to your gemfile.
 
@@ -36,7 +36,7 @@ To install the system locally:
 
 Run Rails server (Puma):
 
-    $ rails server
+    $ bundle exec rails s
 
 ### Accessing the Site
 
@@ -66,17 +66,13 @@ Automated deployment process in place using Codeship and Heroku. Once a commit t
 * How to run the test suite
 * Deployment instructions
 
-## Contact
-Thanks for checking out my work.
+# Copyright
+Images, specifically illustrations, used in this application are subject to copyright by Lee Sheppard.
 
-![Lee Sheppard signature](http://res.cloudinary.com/leesheppard/image/upload/v1496495524/Lee-Sheppard-Black_iv1j84.png)
-
+# Social
 [![Hello](https://img.shields.io/badge/Hello-%40leesheppard-blue.svg)](https://twitter.com/leesheppard)
 
-------
-
-![Lee's AntiPirate](http://res.cloudinary.com/leesheppard/image/upload/c_scale,h_147/v1496056672/leesheppard_pirate_jk4fta.png)
-
-## Copyright notice
-
-Illustrations and images used within this project are subject to copyright &copy; 2017 by [Lee Sheppard](http://www.leesheppard.com). All rights are reserved.
+- [Dribbble](https://dribbble.com/leesheppard)
+- [Instagram](https://instagram.com/leesheppard)
+- [Linkedin](https://www.linkedin.com/in/leesheppard)
+- [Twitter](https://twitter.com/leesheppard)
