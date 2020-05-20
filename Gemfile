@@ -1,21 +1,21 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2', '>= 5.2.4.2'
+gem 'rails', '~> 5.2', '>= 5.2.4.3'
 # Picture upload using Carrierwave
-gem 'carrierwave'
+gem 'carrierwave', '>= 1.3.1'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
-gem 'sassc-rails', '>= 2.1.0'
+gem 'sassc-rails', '>= 2.1.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '>= 4.3.5'
+gem 'jquery-rails', '>= 4.4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '>= 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '>= 2.5'
+gem 'jbuilder', '>= 2.10.0'
 # Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro'
 # Code coverage
@@ -31,7 +31,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # Rspec-rails
-  gem 'rspec-rails', '>= 3.8.2'
+  gem 'rspec-rails', '>= 4.0.1'
 end
 
 group :development do
