@@ -23,7 +23,7 @@ gem 'coveralls', '>= 0.8.22', require: false
 # Bug notifications and monitoring
 gem 'rollbar'
 # Additional icon support
-gem 'font-awesome-sass', '~> 5.6.1'
+gem 'font-awesome-sass', '>= 5.6.1'
 # Use PG as the database for Active Record
 gem 'pg'
 
