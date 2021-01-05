@@ -223,8 +223,8 @@ DEPENDENCIES
   jquery-rails (>= 4.4.0)
   listen
   pg
-  puma (>= 3.12.6)
-  rails (~> 5.2, >= 5.2.4.3)
+  puma
+  rails (~> 5.2, >= 5.2.4.4)
   rollbar
   rspec-rails (>= 4.0.1)
   sassc-rails (>= 2.1.2)
