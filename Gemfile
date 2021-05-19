@@ -5,7 +5,7 @@ gem 'rails', '~> 5.2', '>= 5.2.4.4'
 # Picture upload using Carrierwave
 gem 'carrierwave', '>= 1.3.1'
 # Use Puma as the app server
-gem 'puma', '>= 3.12.6'
+gem 'puma', '>= 5.3.1'
 # Use SCSS for stylesheets
 gem 'sassc-rails', '>= 2.1.2'
 # Use Uglifier as compressor for JavaScript assets
@@ -31,7 +31,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # Rspec-rails
-  gem 'rspec-rails', '>= 4.0.1'
+  gem 'rspec-rails', '>= 4.0.2'
 end
 
 group :development do
