@@ -1,7 +1,7 @@
-class PagesController < ApplicationController
-  def ideas
-  end
+# frozen_string_literal: true
 
-  def links
-  end
+class PagesController < ApplicationController
+  def ideas; end
+
+  def links; end
 end

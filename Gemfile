@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 ruby '2.7.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -25,10 +27,10 @@ gem 'rollbar'
 # Additional icon support
 gem 'font-awesome-sass', '>= 5.6.1'
 # Use PG as the database for Active Record
-gem 'pg'
 gem 'bundler-audit', require: false
-gem 'ruby_audit', require: false
+gem 'pg'
 gem 'rubocop', require: false
+gem 'ruby_audit', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -39,11 +41,11 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '>= 3.7.0'
   gem 'listen'
+  gem 'web-console', '>= 3.7.0'
   # Spring speeds up development by keeping your application running in
   # the background. Read more: https://github.com/rails/spring
+  gem 'brakeman'
   gem 'spring'
   gem 'spring-watcher-listen'
-  gem 'brakeman'
 end

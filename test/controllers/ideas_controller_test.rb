@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
 class IdeasControllerTest < ActionDispatch::IntegrationTest
@@ -5,17 +7,17 @@ class IdeasControllerTest < ActionDispatch::IntegrationTest
     @idea = ideas(:one)
   end
 
-  test "should get index" do
+  test 'should get index' do
     get ideas_url
     assert_response :success
   end
 
-  test "should get new" do
+  test 'should get new' do
     get new_idea_url
     assert_response :success
   end
 
-  test "should create idea" do
+  test 'should create idea' do
     assert_difference('Idea.count') do
       post ideas_url, params: { idea: { description: @idea.description, name: @idea.name, picture: @idea.picture } }
     end
@@ -23,22 +25,23 @@ class IdeasControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to idea_url(Idea.last)
   end
 
-  test "should show idea" do
+  test 'should show idea' do
     get idea_url(@idea)
     assert_response :success
   end
 
-  test "should get edit" do
+  test 'should get edit' do
     get edit_idea_url(@idea)
     assert_response :success
   end
 
-  test "should update idea" do
-    patch idea_url(@idea), params: { idea: { description: @idea.description, name: @idea.name, picture: @idea.picture } }
+  test 'should update idea' do
+    patch idea_url(@idea),
+          params: { idea: { description: @idea.description, name: @idea.name, picture: @idea.picture } }
     assert_redirected_to idea_url(@idea)
   end
 
-  test "should destroy idea" do
+  test 'should destroy idea' do
     assert_difference('Idea.count', -1) do
       delete idea_url(@idea)
     end
