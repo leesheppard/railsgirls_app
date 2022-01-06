@@ -8,7 +8,7 @@ This example app is built from the guides developed by [RailsGirls](http://rails
 
 *Fancy status badges that tell you stuff about this app:*
 
-![Build Status](https://codeship.com/projects/6c1d3eb0-25d9-0135-923a-76ec0d7a655b/status?branch=master)
+[![Codeship Status for leesheppard/railsgirls_app](https://app.codeship.com/projects/6c1d3eb0-25d9-0135-923a-76ec0d7a655b/status?branch=master)](https://app.codeship.com/projects/222489)
 [![Code Climate](https://codeclimate.com/github/leesheppard/railsgirls_app.svg)](https://codeclimate.com/github/leesheppard/railsgirls_app)
 
 ## Requirements
