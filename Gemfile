@@ -26,6 +26,8 @@ gem 'rollbar'
 gem 'font-awesome-sass', '>= 5.6.1'
 # Use PG as the database for Active Record
 gem 'pg'
+gem 'bundler-audit', require: false
+gem 'ruby_audit', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -42,4 +44,5 @@ group :development do
   # the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen'
+  gem 'brakeman'
 end
