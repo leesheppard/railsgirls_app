@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 ruby '2.7.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2', '>= 5.2.4.4'
+gem 'rails', '~> 5.2', '>= 5.2.6'
 # Picture upload using Carrierwave
 gem 'carrierwave', '>= 1.3.1'
 # Use Puma as the app server
@@ -36,7 +36,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # Rspec-rails
-  gem 'rspec-rails', '>= 4.0.1'
+  gem 'rspec-rails', '>= 5.0.2'
 end
 
 group :development do
