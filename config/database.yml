@@ -21,6 +21,5 @@ production:
   host: <%= ENV["DB_HOST"] %>
   username: <%= ENV["DB_USER"] %>
   password: <%= ENV["DB_PASSWORD"] %>
-  url: <%= ENV["DB_CONNECTION_URL"] %>
-  pool: <%= ENV["DB_PORT"] %>
+  pool: 5
   timeout: 5000
