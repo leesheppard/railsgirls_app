@@ -3,17 +3,17 @@
 source 'https://rubygems.org'
 ruby '2.7.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2', '>= 5.2.4.4'
+gem 'rails', '~> 6.1', '>= 6.1.7.5'
 # Picture upload using Carrierwave
-gem 'carrierwave', '>= 1.3.1'
+gem 'carrierwave', '>= 2.2.3'
 # Use Puma as the app server
-gem 'puma', '>= 3.12.6'
+gem 'puma', '>= 5.6.7'
 # Use SCSS for stylesheets
 gem 'sassc-rails', '>= 2.1.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-rails', '>= 4.5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '>= 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -36,13 +36,13 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   # Rspec-rails
-  gem 'rspec-rails', '>= 4.0.1'
+  gem 'rspec-rails', '>= 5.0.3'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'listen'
-  gem 'web-console', '>= 3.7.0'
+  gem 'web-console', '>= 4.0.0'
   # Spring speeds up development by keeping your application running in
   # the background. Read more: https://github.com/rails/spring
   gem 'brakeman'
