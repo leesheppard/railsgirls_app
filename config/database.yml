@@ -16,6 +16,11 @@ test:
 
 production:
   adapter: postgresql
-  database: railsgirls_app_production
-  pool: 5
+  encoding: unicode
+  database: <%= ENV["DB_NAME"] %>
+  host: <%= ENV["DB_HOST"] %>
+  username: <%= ENV["DB_USER"] %>
+  password: <%= ENV["DB_PASSWORD"] %>
+  url: <%= ENV["DB_CONNECTION_URL"] %>
+  pool: <%= ENV["DB_PORT"] %>
   timeout: 5000
