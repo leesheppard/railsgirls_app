@@ -1,2 +1,1 @@
-web: bundle exec bin/rails server 
-release: bundle exec rails db:migrate tmp:cache:clear
+web: bundle exec bin/setup bundle exec bin/rails server 
