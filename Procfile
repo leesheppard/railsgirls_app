@@ -1,1 +1,2 @@
-web: bundle exec bin/setup bundle exec bin/rails server 
+release: bundle exec bin/setup
+web: bundle exec bin/rails server 
