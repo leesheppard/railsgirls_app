@@ -1,2 +1,1 @@
-release: bin/rails db:prepare
-web: bin/rails server 
+web: bin/rails db:prepare && bin/rails server 

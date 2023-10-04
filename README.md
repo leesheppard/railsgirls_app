@@ -4,13 +4,6 @@
 
 This example app is built from the guides developed by [RailsGirls](http://railsgirls.com/). If you are interested in learning about Ruby on Rails, [this is a great place](http://guides.railsgirls.com/app) to get started. There are also modifications to customise the appearance, performance and overall build of code. A list of which can be found [here](#modifications).  
 
-### Health Status
-
-*Fancy status badges that tell you stuff about this app:*
-
-[![Codeship Status for leesheppard/railsgirls_app](https://app.codeship.com/projects/6c1d3eb0-25d9-0135-923a-76ec0d7a655b/status?branch=master)](https://app.codeship.com/projects/222489)
-[![Code Climate](https://codeclimate.com/github/leesheppard/railsgirls_app.svg)](https://codeclimate.com/github/leesheppard/railsgirls_app)
-
 ## Requirements
 
 * [Ruby version](.ruby-version)  
@@ -44,35 +37,33 @@ Development (WEBrick): [http://localhost:3000](http://localhost:3000)
 
 ## MODIFICATIONS
 
-* [CodeClimate](https://codeclimate.com) added for automated code review
 * [Rollbar](https://rollbar.com) added - monitors for bugs
 
-### Frontend
-* Configured DNS with Heroku to simplify app URL - [railsgirls.sheppard.io](http://railsgirls.sheppard.io)
-
 ### Deployment
+
 * Added [Codeship CI](https://codeship.com)
-* Hosting setup with [Heroku](https://heroku.com)
 
 Automated deployment process in place using Codeship and Heroku. Once a commit to the master branch is pushed, it is processed by Codeship and is then deployed from the Codeship worker to Heroku.
 
 ### Backend
+
 * Used [Figaro](https://github.com/laserlemon/figaro) to handle secret keys to remove any identifiable information from environments. Reasons why are on this [StackOverflow](http://stackoverflow.com/q/14785257/567863) thread.
 
 ------
 
 ##### TODO
+
 * Add testing/debugging suite
 * How to run the test suite
 * Deployment instructions
 
 # Copyright
+
 Images, specifically illustrations, used in this application are subject to copyright by Lee Sheppard.
 
 # Social
+
 [![Hello](https://img.shields.io/badge/Hello-%40leesheppard-blue.svg)](https://twitter.com/leesheppard)
 
 - [Dribbble](https://dribbble.com/leesheppard)
-- [Instagram](https://instagram.com/leesheppard)
 - [Linkedin](https://www.linkedin.com/in/leesheppard)
-- [Twitter](https://twitter.com/leesheppard)
