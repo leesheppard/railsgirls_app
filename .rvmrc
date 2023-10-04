@@ -1,1 +1,1 @@
-rvm --create use 2.7.4@railsgirls_app
+rvm --create use 3.2.2@railsgirls_app
