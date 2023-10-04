@@ -1,2 +1,2 @@
-release: bin/setup
+release: bin/rails db:prepare
 web: bin/rails server 
